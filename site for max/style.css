@@ -1341,7 +1341,7 @@ a:hover {
 .site-footer__map {
     width: 100vw;
     max-width: 100vw;
-    min-height: 230px;
+    min-height: 420px;
     margin-left: calc(50% - 50vw);
     margin-right: calc(50% - 50vw);
 }
@@ -1357,7 +1357,20 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 16px;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.site-footer__details {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.site-footer__address {
+    margin: 0;
+    font-weight: 600;
+    color: #fff;
 }
 
 .site-footer__socials {
