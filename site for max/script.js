@@ -40,10 +40,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const updateHeaderState = () => {
         if (!header) return;
         if (window.scrollY > 32) {
-            header.style.background = 'rgba(8, 12, 19, 0.92)';
+            header.style.background = 'rgba(4, 6, 14, 0.94)';
             header.style.padding = '0';
         } else {
-            header.style.background = 'rgba(8, 12, 19, 0.78)';
+            header.style.background = 'rgba(5, 7, 15, 0.86)';
             header.style.padding = '';
         }
     };
